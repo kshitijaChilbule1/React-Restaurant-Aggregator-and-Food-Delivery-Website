@@ -12,16 +12,16 @@ const FooterComp = () => {
           <MDBCol md="6">
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">About</a>
+                <a href="/about">About</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Add Restaurant</a>
+                <a href="/addrestaurant">Add Restaurant</a>
               </li>
             </ul>
           </MDBCol>

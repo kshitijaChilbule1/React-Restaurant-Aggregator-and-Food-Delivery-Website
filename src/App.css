@@ -15,7 +15,7 @@ body p {
 }
 body a {
   text-decoration: none;
-  color: whitesmoke;
+  color: red;
 }
 .orderBtn {
   width: 140px;

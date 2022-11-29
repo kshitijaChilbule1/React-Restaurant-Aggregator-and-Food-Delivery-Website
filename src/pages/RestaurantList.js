@@ -26,10 +26,11 @@ return (
       <div className='item-container'>
         {products.map((product) => (
           <div className='card' key={product.id}>
-            <h3>{product.name}</h3>
-				<p>{product.rating}</p>
-				<p>{product.email}</p>
-				<p>{product.address}</p>
+            <img src={product.img} alt="" style={{height:"150px", marginBottom:'15px'}}/>
+            <h3 style={{fontSize:'25px', fontWeight:'800'}}>{product.name}</h3>
+				<p>⭐⭐⭐⭐⭐{product.rating}</p>
+				<p>EMAIL: {product.email}</p>
+				<p>ADDRESS: {product.address}</p>
             <Link to={`/product/${product.id}`}>View</Link>
           </div>
         ))}
