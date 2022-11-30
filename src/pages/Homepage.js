@@ -14,7 +14,7 @@ const Homepage = () => {
             doloribus, amet, unde harum beatae qui laudantium vitae iure?
             Itaque.
           </p>
-          <Link to="/restaurantList" className="orderBtn">ORDER NOW</Link>
+          <Link to="/menu" className="orderBtn">ORDER NOW</Link>
         </div>
         <div className="hero-img">
         <img src="https://media.istockphoto.com/id/1157284644/photo/paneer-curry.jpg?s=612x612&w=0&k=20&c=_19ZmbB5a2wt-AoJKiP53Q7JS_7MS5uJWNDpnxHJjTo="/>

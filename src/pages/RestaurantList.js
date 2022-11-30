@@ -31,7 +31,7 @@ return (
 				<p>⭐⭐⭐⭐⭐{product.rating}</p>
 				<p>EMAIL: {product.email}</p>
 				<p>ADDRESS: {product.address}</p>
-            <Link to={`/product/${product.id}`}>View</Link>
+            <Link to={`/products/${product.id}`}>View</Link>
           </div>
         ))}
       </div>

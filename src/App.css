@@ -55,3 +55,21 @@ body a {
   width: 500px;
   height: 400px;
 }
+.details{
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 240px;
+}
+.details img{
+  float: left;
+  margin: 15px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+.details p{
+  text-align: justify;
+  font-size: 25px;
+}
+.description{
+  margin-top: 10px;
+}
