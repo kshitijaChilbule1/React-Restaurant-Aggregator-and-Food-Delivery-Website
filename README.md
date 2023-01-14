@@ -1,1 +1,1 @@
-#### In this project, we have fetched data dynamically into react component. Our data is displayed in the form of card in this project. To get the information of exact card we have applied a filter operation on this project. 
+In this project, data is fetched dynamically from API. We have performed filter operation on the data. 
